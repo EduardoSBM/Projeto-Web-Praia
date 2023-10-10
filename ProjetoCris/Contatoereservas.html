@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hotel Mar e Sol!! </title>
+    <link rel="icon" href="praia.png" type="image/png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><!-- para usar fonte do google tem que importar, entra na fonte seleciona, 300, 400 e 700 copia e cola.-->
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet"> 
+</head>
+<body>
+    <table bgcolor="#FFFDB3 " width="100%">
+        <tr><!-- "<tr>" é para pular linha!-->
+            <td >
+                <img src="logo.png" height="80px" width="160px" align="left">
+                <font face="Merriweather" color= "#4682B4" ><h1>Hotel Mar e Sol!!</h1></font>
+            </td>
+        </tr>
+    </table>
+
+    <table bgcolor="#4682B4" width="100%" heigt="2%">
+        <tr>
+            <td align="center" width="25%">
+            </td>
+        </tr>
+    </table>
+
+    <table bgcolor="#FFFDB3" width="100%">
+        <tr>
+            <td align="center" width="25%">
+                <a href="Home.html">
+                    <font face="Merriweather" size="4" color="#4682B4"><i>Home</i></font>
+                </a>
+            </td>
+            
+            <td align="center" width="25%">
+                <a href="ambientes.html">
+                    <font face="Merriweather" size="4" color="#4682B4"><U><i>Ambientes</i></U></font>
+                </a>
+            </td>
+            
+            <td align="center" width="25%">
+                <a href="atividades.html">
+                    <font face="Merriweather" size="4" color="#4682B4"><U><i>Atividades</i></U></font>
+                </a>
+            </td>
+            
+            <td align="center" width="25%">
+                <a href="Contatoereservas.html">
+                    <font face="Merriweather" size="4" color="#4682B4"><U><i>Reservas/Contato</i></U></font>
+                </a>
+            </td>
+        </tr>
+    </table>
+
+    <table bgcolor="#4682B4" width="100%" heigt="2%">
+        <tr>
+            <td align="center" width="25%">
+            </td>
+        </tr>
+    </table>
+    <br>
+
+<table align="left" >
+    <tr>
+        <td width="440px"> 
+            <blockquote>
+                <form>
+                <font face="Merriweather" color= "#4682B4">
+                <font face="Merriweather" color= "#4682B4"><h2>Informações cadastrais:</h2></left></font>
+                
+
+                Endereço: 
+                    <input type="text" name="Endereco" id="Endereco" placeholder="escreva aqui:" size="11" required>
+                    <br><br>
+
+                Bairro: 
+                    <input type="text" name="Bairro" id="Bairro" placeholder="escreva aqui:" size="14" required>
+                    <br><br>
+
+                Cidade: 
+                    <input type="text" name="Cidade" id="Cidade" placeholder="escreva aqui:" size="13" required>
+                    <br><br>
+
+                Estado: 
+                    <select name="Estado" id="Estado">
+                    <option value="SC">Santa Catarina</option>
+                    <option value="RS">Rio Grande do Sul</option>
+                    <option value="PR">Paraná</option>
+                    <option value="SP">São Paulo</option>
+                    <option value="MG">Minas Gerais</option>
+                    </select>
+                    <br><br>
+
+                País: 
+                    <select name="Pais" id="Pais" >
+                    <option value="ERRO">Selecione o seu país</option>
+                    <option value="BR">Brasil</option>
+                    <option value="EUA">Estados Unidos</option>
+                    <option value="URU">Uruguay</option>
+                    <option value="ARG">Argentina</option>
+                    <option value="HOL">Holanda</option>
+                    </select>
+                    <br><br>
+
+                CEP: 
+                    <input type="text" name="CEP" id="CEP" placeholder="escreva aqui:" size="15"  maxLength="8" >
+                    <br><br>
+
+                <font face="Merriweather" color= "#4682B4"><h2>Informações pessoais:</h2></left></font>
+
+                Nome: 
+                    <input type="text" name="Nome" id="Nome" placeholder="escreva aqui:" size="27" maxLength="50" required> <!-- size é para o max. de caracter e requerid é obrigatório.-->
+                    <br><br>
+
+                Sobrenome: 
+                    <input type="text" name="Sobrenome" id="Sobrenome" placeholder="escreva aqui:" size="21" maxLength="50" required> <!-- size é para o max. de caracter e requerid é obrigatório.-->
+                    <br><br>
+
+                Data de nascimento: 
+                    <input type="date" name="Datanascimento" id="Datanascimento" size="10">
+                    <br><br>
+
+                Telefone residencial: 
+                    <input type="text" name="Telefoneresidencial" id="Telefoneresidencial" placeholder="escreva aqui:" size="11"  maxLength="11" >
+                    <br><br>
+
+                Telefone celular: 
+                    <input type="text" name="Telefonecelular" id="Telefonecelular" placeholder="escreva aqui:" size="16"  maxLength="11" >
+                    <br><br>
+
+                E-mail: 
+                    <input type="text" name="E-mail" id="E-mail" placeholder="escreva aqui:" size="26" >
+                    <br><br>
+                
+                CPF:
+                    <input type="text" name="CPF" id="CPF" placeholder="escreva aqui:" size="30 " maxLength="11" >
+                    <br><br>
+
+                RG:
+                    <input type="text" name="RG" id="RG" placeholder="escreva aqui:" size="31" >
+                    <br><br>
+
+                Sexo:   
+                    <input type="radio" name="Sexo" id="Sexo" value="Masculino" placeholder="escreva aqui:" size="10"> Masculino       
+                    <input type="radio" name="Sexo" id="Sexo" value="Feminino" placeholder="escreva aqui:" size="10"> Feminino       
+                    <br><br>
+
+                <font face="Merriweather" color= "#4682B4"><h2>Informações sobre a reserva:</h2></left></font>
+                
+                Data de entrada: 
+                    <input type="date" name="Dataentrada" id="Dataentrada" size="10">
+                    <br><br>
+                 
+                Hora da entrada: 
+                    <input type="time" name="Horaentrada" id="Horaentrada" size="10">
+                    <br><br>
+
+                Quantidade de quartos:
+                    <select name="QtdQuartos" id="QtdQuartos" >
+                    <option value="1">1 ㅤ </option>
+                    <option value="2">2 ㅤ </option>
+                    <option value="3">3 ㅤ </option>
+                    <option value="4">4ㅤ  </option>
+                    <option value="5">5 ㅤ </option>
+                    </select>
+                    <br><br>
+                
+                Quantidade de pessoas:
+                    <select name="Qtdpessoas" id="Qtdpessoas" >
+                    <option value="1">1 ㅤ </option>
+                    <option value="2">2 ㅤ </option>
+                    <option value="3">3 ㅤ </option>
+                    <option value="4">4ㅤ  </option>
+                    <option value="5">5 ㅤ </option>
+                    <option value="Mais">Mais ㅤ </option>
+                    </select>
+                    <br><br>
+                
+                Tipo de pacote:
+                    <select name="Tpacote" id="Tpacote" >
+                    <option value="1">Básico</option>
+                    <option value="2">Médio</option>
+                    <option value="2">Premium</option>
+                    </select>
+                    <br><br>
+                </font>
+
+                <input type="reset" name="limpar" id="limpar" value="Limpar">
+                <input type="submit" name="enviar" id="enviar" value="Enviar">
+                </form>
+            </blockquote>
+        </td>
+    </tr>
+</table>
+
+<blockquote>
+<img src="praia2.jpg" height="300px" width="630px" align="right">  
+<br><Br><br><Br><br><Br><br><Br><br><Br><br><Br>
+</blockquote>
+
+<table align="right">
+    <tr>
+        <td>
+            <blockquote>
+            <img src="fml.jpg" height="300px" width="630px"
+        </blockquote>
+        </td>
+    </tr>
+</table>
+
+<table align="right">
+    <tr>
+        <td>
+            <blockquote>
+            <font face="Merriweather" color= "#4682B4" size="4"><h2>Nos acompanhe nas redes sociais:</h2>
+            <br>
+        </font>
+        </blockquote>
+        </td>
+    </tr>
+</table>
+
+
+<table widht="150%" align="right">
+    <tr>
+        <td>
+            <blockquote>
+                <img src="insta.png" height="30px" width="30px"> 
+            <font face="Merriweather" color= "#4682B4" size="6">
+            @Hotel_MareSol ㅤㅤ
+            </font>
+            <br>
+            <img src="face.png" height="50px" width="50px"> 
+            <font face="Merriweather" color= "#4682B4" size="6">
+            @Hotel_MareSol ㅤㅤ
+            </font>
+            <br>
+            <img src="wpp.png" height="30px" width="30px"> 
+            <font face="Merriweather" color= "#4682B4" size="6">
+            48 987654321 ㅤㅤ
+            </font>
+            </blockquote>
+        </td>
+    </tr>
+</table>
+
+</body>
